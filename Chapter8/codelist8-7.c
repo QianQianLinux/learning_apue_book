@@ -1,5 +1,9 @@
-//#include "apue.h"	/* 添加codelist15-3或10-17后，必须注释该行*/
-#include "codelist15-3.c"
+/*
+ * gcc codelist8-7.c codelist15-3.c ${error} -o 8-7
+ * or
+ * gcc codelist8-7.c codelist10-17.c ${error} -o 8-7
+ */
+#include "apue.h"
 
 static void charatatime(char *);
 
