@@ -5,8 +5,8 @@
 sudo chmod a+r /usr/include/apue.h
 vi ~/.bashrc
 	//在其末尾添加下面这行，.......处指的是存放error.c的目录
-	error=/home/......../error.c
+	apue_error=/home/......../error.c
 source ~/.bashrc
-gcc codelistxxx.c ${error} -o xxx
+gcc codelistxxx.c ${apue_error} -o xxx
 
-详情参看：http://www.cnblogs.com/yhLinux/p/4079930.html
+参考资料：http://www.cnblogs.com/yhLinux/

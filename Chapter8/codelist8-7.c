@@ -1,7 +1,7 @@
 /*
- * gcc codelist8-7.c codelist15-3.c ${error} -o 8-7
+ * gcc codelist8-7.c codelist15-3.c ${apue_error} -o 8-7
  * or
- * gcc codelist8-7.c codelist10-17.c ${error} -o 8-7
+ * gcc codelist8-7.c codelist10-17.c ${apue_error} -o 8-7
  */
 #include "apue.h"
 
