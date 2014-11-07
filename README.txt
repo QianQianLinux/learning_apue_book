@@ -9,4 +9,4 @@ vi ~/.bashrc
 source ~/.bashrc
 gcc codelistxxx.c ${apue_error} -o xxx
 
-参考资料：http://www.cnblogs.com/yhLinux/
+参考资料：http://www.cnblogs.com/yhLinux/p/4079930.html
